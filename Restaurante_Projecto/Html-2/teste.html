@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+        input{
+            display: none;
+        }
+        label{
+            display: flex;
+            height: 100px;
+            width: 150px;
+            border-radius: 6px;
+            border: 1px dashed #999;
+            justify-content: center;
+            align-items: center;
+        }
+        label:hover{
+            color: #de0611;
+            border: 1px dashed #de0611;
+        }
+
+        .background_image{
+            display: flex;
+            flex-direction: column;
+            background-image: url('../Imagens/Fundo/Fundo_01.jpg');
+            width: 100%;
+            height: 800px;
+            
+        }
+        .btn{
+            width: 20%;
+            height: 50px;
+            margin: auto;
+        }
+
+        .flex{
+            display: flex;
+            background-image: url('../Imagens/Fundo/Fundo_01.jpg');
+            width: 100%;
+            height: 400px;
+            justify-content: center;
+            align-items: center;
+        }
+        .btn-2{
+            width: 100%;
+            height: 20%;
+            background-color: #FFFBDE;
+            border-radius: 50px;
+            font-size: 2rem;
+            font-family: Arial, Helvetica, sans-serif;
+            border: none;
+            color: green;
+        }
+        .btn-2:hover{
+            background-color: #f0ecd5;
+            color: rgb(1, 177, 1);
+        }
+
+   </style>
+</head>
+<body>
+    <header>
+        <div class="icons">
+            <a href="index.html"><i class="fas fa-bars" id="bars"></i></a>
+            <i class="fas fa-search" id="bars"></i>
+            <a href="../Html/index.html" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+
+        <input type="file" id="filee">
+        <label for="filee">Upload Fille</label>
+
+        <label class="picture" tabindex="0">
+            <input type="file" accept="image/*" class="picture__input">
+            <span class="picture__image"></span>
+        </label>
+    </header>
+
+    <div class="navbar">
+        <p>Olá Mundo!</p>
+    </div>
+    <div class="background_image">
+        <p>Olá Mundo!</p>
+        <span>Olá Mundo!</span>
+        <br>
+        <button class="btn">
+            <p>Enviar</p>
+        </button>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima alias suscipit tempore illum nam, at ex, aspernatur aliquid quos reiciendis laborum nulla ratione iusto incidunt itaque illo accusamus provident esse?</p>
+        <p>lore</p>
+    </div>
+    <div class="other">
+        <p>Diversos</p>
+    </div>
+
+    <div class="flex">
+        <p><button class="btn-2">Enviar</button></p>
+    </div>
+</body>
+</html>

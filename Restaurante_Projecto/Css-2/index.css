@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+/*Importação de fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+/*Removendo toda formatação padrão dos elementos*/
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color: black;
+}
+
+/*Configurações gerais da página*/
+:root{
+    font-size: 16px;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;;
+    
+    --cor1: #F98A1F;
+    --cor2: #E07000;
+    --cor3: #ad5700;
+    --cor4: #613000;
+    --cor5: #6f5942;
+}
+
+/*Configurações gerais do corpo da pagina principal*/
+/*
+body{
+    background-image: url('..//Imagens/Fundo/Fundo_01.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+*/
+
+body{
+    background-color: #613000ad;
+}
+/*Estilizando o cabeçalho - header*/
+header{    
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    background-color: var(--cor3);
+    padding: 0.9rem;
+    box-shadow: 3px -5px 13px 4px black;
+}
+
+/*Estilizando o menu*/
+.logo-restaurant > p {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.navbar a {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0rem 0.5rem;
+}
+.navegation a:hover{
+    text-decoration: underline double var(--cor4);
+    transition: 550ms;
+}
+
+/*Estilizando o botão de login*/
+.btn_lg{
+    padding: 0.3rem;
+    width: 9rem;
+    text-align: center;
+    border: 2px solid var(--cor1);
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: transparent;
+}
+.btn_login a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.btn_lg:hover {
+    background-color: #c76300;
+    transition: 500ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Estilizando o main - corpo do da página*/
+.main{
+    background-image: url('../Imagens/Fundo/Fundo_01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 80%;
+    height: 760px;
+    border-radius: 0px 10px;
+}
+
+.introduction{
+    background-color: var(--cor3);
+    width: 100%;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.introduction h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.introduction p {
+    font-size: 1.4rem;
+    text-indent: 50px;
+    text-align: justify;
+    margin: 0px 40px;
+    word-spacing: 2px;
+}
+
+
+
+
+
+/*Estilizando o cabeçalho - header*/
+
+/*RESPONSIVIDADE*/
+
+/*
+justify-content : alinha na horizontal;
+align-items : alinha na vertical;
+*/
