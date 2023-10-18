@@ -1,13 +1,13 @@
+header{
+    background-color: var(--cor-4);
+    width: 100%;
+    padding: 10px 0px;
+    top: 0px;
+    left: 0px;
+}
 html{
     scroll-behavior: smooth;
 }
-.header-alls-page{
-    background-color: var(--cor-4);
-    background-color: rgb(0, 130, 142);
-    width: 100%;
-    height: 100%;
-}
-
  .logo{
     display: flex;
     justify-content: space-between;
@@ -27,6 +27,7 @@ html{
     cursor: pointer;
     color: white;
     letter-spacing: 2px;
+
  }
  .btn-call{
     width: 220px;
@@ -149,123 +150,6 @@ html{
     border-radius: 100%;
 }
 
-/*
-    Estilizando nosso menu
-*/
-
-
-.menu-food-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    background-color: var(--cor-1);
-    background-color: rgb(211, 252, 255);
-    width: 100%;
-    height: 100%;
-}
-.menu-food-container > h1{
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    padding: 5px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    max-width: 40%;    
-    min-width: 25%;    
-    color: var(--cor-5);
-    letter-spacing: 4px;
-}
-.menu-food-display{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-}
-.food-dishes-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    max-width: 20rem;
-    min-width: 15rem;
-    height: 37.5rem;
-    padding: 30px;
-    margin: 20px;
-    background-color: var(--cor-2);
-    background-color: rgb(0, 130, 142);
-    border-radius: 5px;
-}
-.food-dishes-img{
-    width: 20rem;
-    height: 18rem;
-}
-.food-dishes-img:hover{
-    rotate: 3deg;
-    transition: 0.5s;
-    border-radius: 50%;
-}
-.logo-dishes{
-
-}
-.text-dishes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    color: white;
-}
-.btn-dishes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 0.9rem;
-    padding: 10px;
-    background-color: transparent;
-    border: 2px solid var(--cor-5);
-    width: max-content;
-    cursor: pointer;
-    color: white;
-    letter-spacing: 2px;
-}
-.btn-dishes:hover{
-    background-color: var(--cor-5);
-    color: black;
-    transition: 300ms;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -292,8 +176,6 @@ html{
     justify-content: center;
     align-items: center;
     background-color: black;
-    background-color: rgb(0, 133, 142);
-
     opacity: 90%;
     width: calc(100% - 700px);
     height: calc(100% - 200px);
@@ -403,7 +285,6 @@ footer{
     align-items: center;
     height: 700px;
     background-color: var(--cor-4);
-    background-color: rgb(0, 130, 142);
 }
 .container-in-footer{
     width: calc(100% - 100px);
@@ -465,8 +346,6 @@ footer{
     margin-top: 0px;
     padding: 0px;
     background-color: black;
-    background-color: rgb(0, 120, 129);
-
     width: 500px;
     height: 430px;
     border-radius: 8px;
@@ -556,201 +435,4 @@ footer{
     width: 100%;
     justify-content: flex-end;
     margin: -60px -30px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-footer{
-    height: 750px;
-    background-color: var(--cor-4);
-}
-.logo-restaurant-footer{
-    display: flex;
-    justify-content: center;
-}
-.logo-restaurant-footer h2{
-    padding: 60px 0px;
-    color: var(--cor-5);
-    font-size: 2.5rem;
-}
-.other-container-footer{
-    display: flex;
-    justify-content: space-around;
-}
-.contact-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.contact-footer h3,
-.email-footer p,
-.working-hours-footer h2{
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    margin: 0px 10% 10% 10%;
-    text-align: center;
-}
-
-.other-container-footer p{
-    padding: 0px;
-}
-.center-titles-footer{
-    display: flex;
-    justify-content: center;
-    font-size: 1.2rem;
-}
-
-.email-footer {
-    width: %;
-}
-.email-footer form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-.input-email-footer{
-    padding: 8px;
-    outline: none;
-}
-.input-email-footer-width{
-    width: 40%;
-}
-.input-send-footer-width{
-    width: 20%;
-}
-
-.copyright{
-
-}
-
-
-
-
-
-
-
-
-
-.contact-footer, .email-footer, .working-hours-footer{
-    background-color: var(--cor-5);
-}
-
-/*
-    FIM
-    Finalizando a estilização do rodape da pagina
-*/
-
-
-
-/*
-.container-team{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(190, 78, 78);
-    height: 500px;
-}
-
-.about-team-text{
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-    padding: 20px;
-}
-.team-mens{
-    display: flex;
-    justify-content: center;
-    
-}
-.img-size{
-    width: 250px;
-    height: 250px;
-    padding: 0px 10px;
-}
-
-
-.team-mens-single p{
-    display: flex;
-    font-size: 0.9rem;
-    letter-spacing: 3px;
-    justify-content: center;
-}
-
-
-
-.gallery{
-    display: flex;
-    height: 800px;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--cor-3);
-}
-.about-gallery-text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.about-gallery-text h1{
-    font-weight: 300;
-    letter-spacing: 2px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    width: 300px;
-    text-align: center;
-    margin: 20px;
-}
-.about-gallery-text p{
-    word-spacing: 5px;
-    letter-spacing: 5px;
-    font-size: 1.3rem;
-}
-.saloes{
-    display: flex;
-}
-.wrap-img-column{
-    display: flex;
-    flex-direction: column;
-}
-.img-size-fix{
-    height: 520px;
-    width: 520px;
-}
-.img-size, .img-size-fix{
-    padding: 10px;
-}
-.nowrap-img{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
 }
